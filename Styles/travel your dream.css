@@ -1,0 +1,106 @@
+/* mulish font */
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+  *{
+    font-family: 'Mulish', sans-serif;
+
+  }
+  /* header style */
+  header{
+    padding: 135px 135px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .banner-content{
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+   
+    
+
+  }
+  .banner-title{
+    padding-top: 106px;
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+  }
+  .title-description{
+   padding-top: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+  .input-destination{
+    display: flex;
+    gap: 24px;
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 770px;
+    margin: 0px 185px;
+    
+  }
+  .input-1,
+  .input-2,
+  .input-3{
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: #FFF;
+    width: 175px;
+    height: 52px;
+}
+.btn-primary{
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+}
+/* Responsive for mobile */
+@media screen and (max-width:600px) {
+    header{
+        max-width: 580px;
+        margin: 0 30px;
+    }
+    .banner-content{
+        padding: 0px 10px;
+        margin: 50px auto 50px;
+        width: 335px;
+        height: 483px;
+        background-repeat: no-repeat;
+    }
+    .title-description{
+    }
+    .input-destination{
+        flex-direction: column;
+        gap: 10px;
+        width: 287px;
+        margin: 0px 24px;
+
+    }
+    .input-1,
+    .input-2,
+    .input-3,
+    .btn-primary
+    {
+        width: 255px;
+
+    }
+
+}
